@@ -1,9 +1,6 @@
 spring:
-  config:
-    import: configserver:http://localhost:8087
-   
   application:
-    name: UserService
+    name: CONFIG-DEFAULT
 
 eureka:
   instance:
